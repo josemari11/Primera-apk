@@ -1,11 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.Herramientas" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Geolocalizacion_1</name>
+<feature name=”http://api.phonegap.com/1.0/geolocation”/>
+<feature name=”http://api.phonegap.com/1.0/network”/>
+ <feature name="Camera">
+<param name="android-package" value="org.apache.cordova.CameraLauncher" />
+</feature>
     <description>
         A blank PhoneGap app.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+       Jose Mari Tomé
     </author>
     <content src="index.html" />
     <access origin="*" />
